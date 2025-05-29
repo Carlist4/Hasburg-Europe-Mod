@@ -1,0 +1,6 @@
+MILITARY_FORMATIONS = {
+    c:BEL ?= {
+    }
+    c:LUX ?= {
+    }
+}

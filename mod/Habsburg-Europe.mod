@@ -1,0 +1,6 @@
+name="Hasburg Europe Mod"
+path="mod/Hasburg-Europe-Mod"
+replace_path="common/history/states"
+replace_path="common/history/pops"
+replace_path="common/history/buildings"
+supported_version="1.8.*"
