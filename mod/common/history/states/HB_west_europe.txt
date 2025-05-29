@@ -18,4 +18,14 @@ STATES = {
 		add_homeland = cu:flemish
 		add_claim = c:FRA
 	}
+	s:STATE_GELRE = {
+		create_state = {
+			country = c:NET
+			owned_provinces = { xC0C0A0 x4C4894 xAF3A54 x41C0A0  }
+		}
+
+		add_homeland = cu:dutch
+		add_claim = c:NET
+	}
+
 }

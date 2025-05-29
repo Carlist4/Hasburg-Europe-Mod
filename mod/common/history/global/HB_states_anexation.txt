@@ -16,4 +16,12 @@ GLOBAL = {
             }
         }
     }
+    s:STATE_GELRE = {
+        set_owner_of_provinces = {
+            country = c:NET
+            provinces = {
+                x0000DF
+            }
+        }
+    }
 }

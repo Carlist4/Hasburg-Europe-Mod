@@ -76,5 +76,36 @@ POPS = {
 			}
 		}
 	}
-
+	s:STATE_GELRE = {
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 192091
+			}
+			create_pop = {
+				culture = dutch
+				religion = catholic
+				size = 673889
+			}
+			create_pop = {
+				culture = wallonian # French or Walloon Reformed
+				religion = protestant
+				size = 774
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 6705
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 19201
+			}
+		}
+		region_state:BEL = {
+			kill_population_percent_in_state = {
+				percent = 1 # 100%
+			}
+		}
+	}
 }
