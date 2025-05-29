@@ -1,0 +1,19 @@
+GLOBAL = {
+    s:STATE_WALLONIA = {
+    set_owner_of_provinces = {
+        country = c:FRA
+        provinces = {
+            xD001A0
+            x5180A0
+            }
+        }
+    }
+    s:STATE_FLANDERS = {
+        set_owner_of_provinces = {
+            country = c:NET
+            provinces = {
+                x808061
+            }
+        }
+    }
+}

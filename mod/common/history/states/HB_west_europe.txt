@@ -1,0 +1,21 @@
+STATES = {
+    s:STATE_WALLONIA = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = { xB0A0C0 x916574 x2D32D7 x8080A0 xEF2040 x3A5FB9 }
+		}
+
+		add_homeland = cu:wallonian
+		add_claim = c:NET
+	}
+	s:STATE_FLANDERS = {
+		create_state = {
+			country = c:NET
+			owned_provinces = { x93FB2E x018061 x0141A0 x8041A0 x800060 }
+		}
+
+        add_homeland = cu:dutch
+		add_homeland = cu:flemish
+		add_claim = c:FRA
+	}
+}

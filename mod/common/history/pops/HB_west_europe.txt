@@ -1,0 +1,80 @@
+POPS = {
+    s:STATE_WALLONIA = {
+		region_state:LUX = {
+			kill_population_percent_in_state = {
+            percent = 1 # 100%
+			}
+		}
+		region_state:BEL={
+			kill_population_percent_in_state = {
+				percent = 1 # 100%
+			}
+		}
+		# Hainaut, Liège, Luxembourg, and Namur
+		region_state:FRA = {
+			create_pop = {
+				culture = wallonian
+				size = 1413476
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 27847
+			}
+			create_pop = {
+				culture = flemish
+				size = 40207
+			}
+			create_pop = {
+				culture = flemish
+				religion = protestant
+				size = 1355
+			}
+			create_pop = {
+				culture = british
+				size = 317
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 205
+			}
+		}
+	}
+	# Antwerp, Brabant, West Flanders, East Flanders, and Limburg
+	s:STATE_FLANDERS = {
+		region_state:BEL={
+			kill_population_percent_in_state = {
+				percent = 1 # 100%
+			}
+		}
+		region_state:NET = {
+			create_pop = {
+				culture = flemish
+				size = 2224197
+			}
+			create_pop = {
+				culture = flemish
+				religion = protestant
+				size = 6013
+			}
+			create_pop = {
+				culture = wallonian
+				size = 260733
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 3361
+			}
+			create_pop = {
+				culture = british
+				size = 3185
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1131
+			}
+		}
+	}
+
+}
